@@ -1,8 +1,6 @@
 import { Container } from "@mui/material";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
 import { SyntheticEvent, useState } from "react";
 import FirstTab from "../shared/commons/FirstTab";
 import SecondTab from "../shared/commons/SecondTab";
