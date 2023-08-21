@@ -7,8 +7,6 @@ import Login from "./components/Login/Login.tsx";
 import Home from "./components/Home/Home.tsx";
 import UserProfile from "./components/UserProfile/UserProfile.tsx";
 import AppNavBar from "./components/AppNavBar/AppNavBar.tsx";
-import EditProduct from "./components/EditProduct/EditProduct.tsx";
-import AddProduct from "./components/AddProduct/AddProduct.tsx";
 
 const router = createBrowserRouter([
   {
@@ -28,14 +26,6 @@ const router = createBrowserRouter([
       {
         path: "/profile",
         element: <UserProfile />,
-      },
-      {
-        path: "/product/add",
-        element: <AddProduct />
-      },
-      {
-        path: "/product/edit/:productId",
-        element: <EditProduct />,
       },
     ],
   },

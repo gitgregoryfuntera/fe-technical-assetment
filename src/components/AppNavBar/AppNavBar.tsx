@@ -23,14 +23,6 @@ const PAGES = [
     path: "/login",
     page: "Login",
   },
-  {
-    path: "/product/add",
-    page: "Add Product",
-  },
-  {
-    path: "/profile",
-    page: "Profile",
-  },
 ];
 
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
